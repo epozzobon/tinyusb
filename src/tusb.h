@@ -48,6 +48,10 @@
     #include "class/hid/hid_host.h"
   #endif
 
+  #if CFG_TUH_XINPUT
+    #include "class/xinput/xinput_host.h"
+  #endif
+
   #if CFG_TUH_MSC
     #include "class/msc/msc_host.h"
   #endif

@@ -399,6 +399,10 @@
 #define CFG_TUH_HID    0
 #endif
 
+#ifndef CFG_TUH_XINPUT
+#define CFG_TUH_XINPUT    0
+#endif
+
 #ifndef CFG_TUH_MIDI
 #define CFG_TUH_MIDI   0
 #endif
